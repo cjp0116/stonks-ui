@@ -68,6 +68,7 @@ export default function Home() {
           initialHeight={300}
           initialTop={340}
           initialLeft={1270}
+          
           minWidth={280}
           minHeight={250}
         >
