@@ -14,7 +14,6 @@ export default function Home() {
       <div className="relative h-[calc(100vh-64px)] p-4 overflow-hidden">
 
 
-        {/* Account Summary - positioned absolutely */}
         <ResizablePanel
           initialWidth={320}
           initialHeight={280}
@@ -26,7 +25,6 @@ export default function Home() {
           <AccountSummary />
         </ResizablePanel>
 
-        {/* Watchlist Panel - positioned below Account Summary */}
         <ResizablePanel
           initialWidth={400}
           initialHeight={400}
@@ -38,7 +36,6 @@ export default function Home() {
           <WatchlistPanel />
         </ResizablePanel>
 
-        {/* Main Chart - centered */}
         <ResizablePanel
           initialWidth={800}
           initialHeight={600}
@@ -50,7 +47,6 @@ export default function Home() {
           <MainChart />
         </ResizablePanel>
 
-        {/* Recent Orders - right side top */}
         <ResizablePanel
           initialWidth={320}
           initialHeight={300}
@@ -62,7 +58,6 @@ export default function Home() {
           <RecentOrders />
         </ResizablePanel>
 
-        {/* Positions - right side bottom */}
         <ResizablePanel
           initialWidth={320}
           initialHeight={300}
