@@ -108,7 +108,7 @@ export default function ResizablePanel({
         document.addEventListener('mouseup', handleEnd);
 
         // Add touch event listeners
-        document.addEventListener('touchmove', handleMove, { passive: false });
+        document.addEventListener('touchmove', handleMove, { passive: false });c c 
         document.addEventListener('touchend', handleEnd);
     }, [dimensions, position, minWidth, minHeight, getContainerBounds]);
 

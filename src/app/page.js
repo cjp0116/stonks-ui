@@ -12,8 +12,6 @@ export default function Home() {
       <Header />
 
       <div className="relative h-[calc(100vh-64px)] p-4 overflow-hidden">
-
-
         <ResizablePanel
           initialWidth={320}
           initialHeight={280}
